@@ -1,0 +1,122 @@
+{
+  "lead_id": "lead_supabase_com",
+  "target_query": "supabase.com",
+  "timestamp": "2026-09-09T06:37:23.693615+00:00",
+  "enrichment_source": "offline_intelligence_fixtures",
+  "company": {
+    "name": "Supabase",
+    "domain": "supabase.com",
+    "url": "https://supabase.com",
+    "description": "Open source Firebase alternative providing Postgres database, Authentication, Instant APIs, Edge Functions, Realtime subscriptions, and Vector storage.",
+    "industry": "Developer Infrastructure / Cloud Database",
+    "founded_year": 2020,
+    "headquarters": "San Francisco, CA & Remote Global",
+    "team_size": "100-200 employees",
+    "estimated_headcount": 140,
+    "linkedin_url": "https://www.linkedin.com/company/supabase",
+    "twitter_handle": "@supabase",
+    "github_url": "https://github.com/supabase",
+    "contact_email": "support@supabase.com"
+  },
+  "financials": {
+    "total_raised": "$116M",
+    "latest_round": "Series B",
+    "latest_round_date": "2022-05",
+    "valuation": "$1B+",
+    "notable_investors": [
+      "Coatue",
+      "Felicis",
+      "Y Combinator",
+      "Mozilla Corporation"
+    ],
+    "revenue_stage": "$40M+ ARR (Developer Cloud)"
+  },
+  "tech_stack": {
+    "frontend": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Radix UI"
+    ],
+    "backend": [
+      "Elixir",
+      "Go",
+      "TypeScript / Deno (Edge Functions)",
+      "PostgreSQL",
+      "pgvector"
+    ],
+    "database_and_cloud": [
+      "PostgreSQL",
+      "AWS (EC2, RDS, Fly.io)",
+      "Cloudflare"
+    ],
+    "analytics_and_marketing": [
+      "PostHog",
+      "Segment",
+      "Google Analytics 4"
+    ],
+    "payments_and_security": [
+      "Stripe",
+      "Supabase Auth (Gotrue)",
+      "pg_cron",
+      "PostgREST"
+    ],
+    "detected_signatures": [
+      "nextjs",
+      "react",
+      "postgresql",
+      "cloudflare",
+      "stripe"
+    ]
+  },
+  "key_contacts": [
+    {
+      "name": "Paul Copplestone",
+      "title": "Chief Executive Officer & Co-Founder",
+      "department": "Executive",
+      "relevance_note": "Leads corporate strategy, developer evangelism, and database cloud expansion.",
+      "linkedin_url": "https://www.linkedin.com/in/paulcopplestone",
+      "email": "paul@supabase.com"
+    },
+    {
+      "name": "Ant Wilson",
+      "title": "Chief Technology Officer & Co-Founder",
+      "department": "Engineering",
+      "relevance_note": "Architect of Supabase core backend systems and distributed realtime infrastructure.",
+      "linkedin_url": "https://www.linkedin.com/in/antwilson",
+      "email": "ant@supabase.com"
+    }
+  ],
+  "scoring": {
+    "icp_fit_score": 97,
+    "intent_score": 94,
+    "overall_score": 95,
+    "qualification_tier": "Tier 1: Enterprise Target",
+    "fit_breakdown": {
+      "tech_alignment": 25,
+      "scale_and_headcount": 24,
+      "capital_health": 24,
+      "market_velocity": 22
+    },
+    "intent_signals": [
+      "Massive expansion in pgvector and AI agent database tooling",
+      "Rapid enterprise security push (SOC2 Type II, HIPAA, dedicated instances)",
+      "High developer mindshare with 75,000+ GitHub stars"
+    ],
+    "risk_factors": [
+      "Open source culture prioritizes community PRs over closed enterprise contracts"
+    ]
+  },
+  "outreach": {
+    "recommended_persona": "Head of Enterprise Growth / VP Engineering",
+    "hook_angle": "Automated pgvector indexing pipelines & enterprise migration telemetry",
+    "cold_email_subject": "Autonomous vector pipeline for enterprise Supabase migrations",
+    "cold_email_body": "Hi Paul,\n\nHuge fan of Supabase's trajectory, especially the developer love around pgvector and Edge Functions. When enterprise teams migrate from legacy Firebase or self-hosted Mongo, orchestrating batch schema migrations and RLS policy verification often stalls adoption cycles.\n\nWe built an autonomous ingestion and schema validation pipeline that auto-generates TypeScript types, verifies RLS policies under load, and optimizes vector indexing in under 5 minutes.\n\nWorth a quick chat to see if this could accelerate Supabase Enterprise deal velocity?\n\nBest,\nRishii Yadav",
+    "discovery_questions": [
+      "What is the number one bottleneck enterprise prospects report when validating Row Level Security at scale?",
+      "How are you automating high-volume vector ingestion benchmarks for enterprise POCs?"
+    ]
+  },
+  "summary_markdown": "# \ud83c\udfe2 Enterprise Lead Dossier: Supabase\n> **Target Domain:** `supabase.com` | **Enrichment Source:** `offline_intelligence_fixtures` | **Generated:** `2026-09-09`\n\n---\n\n### \ud83c\udfaf Executive Qualification Matrix\n| Metric | Rating | Visual Gauge | Status |\n| :--- | :--- | :--- | :--- |\n| **Overall Score** | **95/100** | `[\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591]` | **Tier 1: Enterprise Target** |\n| **ICP Fit Score** | **97/100** | Tech (25/25) \u2022 Scale (24/25) | \u2705 High Target |\n| **Buying Intent** | **94/100** | Capital (24/25) \u2022 Market (22/25) | \ud83d\ude80 Active Buying Window |\n\n---\n\n### \ud83d\udccc Company Intelligence\n| Attribute | Detail |\n| :--- | :--- |\n| **Company Name** | **Supabase** |\n| **Website** | [https://supabase.com](https://supabase.com) |\n| **Industry** | Developer Infrastructure / Cloud Database |\n| **Founded** | 2020 |\n| **Headquarters** | San Francisco, CA & Remote Global |\n| **Headcount** | **100-200 employees** (Est. 140 FTEs) |\n| **LinkedIn** | [Supabase LinkedIn](https://www.linkedin.com/company/supabase) |\n| **GitHub** | [Supabase GitHub](https://github.com/supabase) |\n\n**Overview:**\nOpen source Firebase alternative providing Postgres database, Authentication, Instant APIs, Edge Functions, Realtime subscriptions, and Vector storage.\n\n---\n\n### \ud83d\udcb0 Financials & Capital Profile\n- **Total Raised:** `$116M`\n- **Latest Round:** `Series B` (2022-05)\n- **Estimated Valuation:** `$1B+`\n- **Revenue Run-Rate:** `$40M+ ARR (Developer Cloud)`\n- **Notable Backers:** Coatue, Felicis, Y Combinator, Mozilla Corporation\n\n---\n\n### \ud83d\udcbb Deep Technology Stack Profile\n| Layer | Detected Technologies & Infrastructure |\n| :--- | :--- |\n| **Frontend Frameworks** | Next.js, React, TypeScript, Tailwind CSS, Radix UI |\n| **Backend & APIs** | Elixir, Go, TypeScript / Deno (Edge Functions), PostgreSQL, pgvector |\n| **Database & Cloud Infrastructure** | PostgreSQL, AWS (EC2, RDS, Fly.io), Cloudflare |\n| **Analytics & Telemetry** | PostHog, Segment, Google Analytics 4 |\n| **Billing, Auth & Security** | Stripe, Supabase Auth (Gotrue), pg_cron, PostgREST |\n\n---\n\n### \ud83d\udc65 Key Decision Makers & Executives\n| Contact | Title | Department | Email Pattern | Strategic Relevance |\n| :--- | :--- | :--- | :--- | :--- |\n| **[Paul Copplestone](https://www.linkedin.com/in/paulcopplestone)** | Chief Executive Officer & Co-Founder | Executive | `paul@supabase.com` | Leads corporate strategy, developer evangelism, and database cloud expansion. |\n| **[Ant Wilson](https://www.linkedin.com/in/antwilson)** | Chief Technology Officer & Co-Founder | Engineering | `ant@supabase.com` | Architect of Supabase core backend systems and distributed realtime infrastructure. |\n\n---\n\n### \ud83d\udce1 Buying Intent Signals & Risk Assessment\n#### High-Intent Signals\n- \ud83d\udfe2 **Signal**: Massive expansion in pgvector and AI agent database tooling\n- \ud83d\udfe2 **Signal**: Rapid enterprise security push (SOC2 Type II, HIPAA, dedicated instances)\n- \ud83d\udfe2 **Signal**: High developer mindshare with 75,000+ GitHub stars\n\n#### Risk & Friction Assessment\n- \u26a0\ufe0f **Risk**: Open source culture prioritizes community PRs over closed enterprise contracts\n\n---\n\n### \u2709\ufe0f Hyper-Personalized Outreach Blueprint\n- **Target Persona:** `Head of Enterprise Growth / VP Engineering`\n- **Strategic Angle:** `Automated pgvector indexing pipelines & enterprise migration telemetry`\n- **Subject Line:** `Autonomous vector pipeline for enterprise Supabase migrations`\n\n```text\nHi Paul,\n\nHuge fan of Supabase's trajectory, especially the developer love around pgvector and Edge Functions. When enterprise teams migrate from legacy Firebase or self-hosted Mongo, orchestrating batch schema migrations and RLS policy verification often stalls adoption cycles.\n\nWe built an autonomous ingestion and schema validation pipeline that auto-generates TypeScript types, verifies RLS policies under load, and optimizes vector indexing in under 5 minutes.\n\nWorth a quick chat to see if this could accelerate Supabase Enterprise deal velocity?\n\nBest,\nRishii Yadav\n```\n\n#### Recommended Discovery Questions\n1. What is the number one bottleneck enterprise prospects report when validating Row Level Security at scale?\n2. How are you automating high-volume vector ingestion benchmarks for enterprise POCs?\n\n---\n*Autonomous Lead Intelligence Engine \u2022 Confidential Enterprise Asset*"
+}

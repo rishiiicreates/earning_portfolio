@@ -1,0 +1,9 @@
+domain,company_name,target_persona,priority
+stripe.com,Stripe,VP Engineering,High
+linear.app,Linear,Head of Product,High
+supabase.com,Supabase,CEO,Urgent
+retool.com,Retool,VP Solutions Architecture,Medium
+vercel.com,Vercel,VP Product Ecosystem,Urgent
+datadoghq.com,Datadog,Director Infrastructure,Medium
+anthropic.com,Anthropic,Head of Partnerships,High
+resend.com,Resend,Founder & CEO,High

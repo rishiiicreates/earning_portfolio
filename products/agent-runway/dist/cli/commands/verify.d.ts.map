@@ -1,0 +1,1 @@
+{"version":3,"file":"verify.d.ts","sourceRoot":"","sources":["../../../src/cli/commands/verify.ts"],"names":[],"mappings":"AAIA,MAAM,WAAW,oBAAoB;IACnC,GAAG,CAAC,EAAE,MAAM,CAAC;IACb,IAAI,CAAC,EAAE,OAAO,CAAC;CAChB;AAED,wBAAsB,YAAY,CAAC,OAAO,EAAE,oBAAoB,GAAG,OAAO,CAAC,IAAI,CAAC,CAoB/E"}

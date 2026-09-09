@@ -1,0 +1,135 @@
+{
+  "lead_id": "lead_stripe_com",
+  "target_query": "stripe.com",
+  "timestamp": "2026-09-09T06:37:23.692941+00:00",
+  "enrichment_source": "offline_intelligence_fixtures",
+  "company": {
+    "name": "Stripe",
+    "domain": "stripe.com",
+    "url": "https://stripe.com",
+    "description": "Financial infrastructure platform for the internet, powering payments, billing, and global commerce for millions of companies.",
+    "industry": "FinTech / Payments Infrastructure",
+    "founded_year": 2010,
+    "headquarters": "South San Francisco, CA & Dublin, Ireland",
+    "team_size": "8,000+ employees",
+    "estimated_headcount": 8200,
+    "linkedin_url": "https://www.linkedin.com/company/stripe",
+    "twitter_handle": "@stripe",
+    "github_url": "https://github.com/stripe",
+    "contact_email": "press@stripe.com"
+  },
+  "financials": {
+    "total_raised": "$8.7B+",
+    "latest_round": "Series I / Secondary",
+    "latest_round_date": "2024-02",
+    "valuation": "$65B",
+    "notable_investors": [
+      "Sequoia Capital",
+      "Founders Fund",
+      "Andreessen Horowitz",
+      "General Catalyst",
+      "Khosla Ventures"
+    ],
+    "revenue_stage": "$14B+ Gross Revenue ($3B+ Net ARR)"
+  },
+  "tech_stack": {
+    "frontend": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "GraphQL"
+    ],
+    "backend": [
+      "Ruby (Sorbet)",
+      "Go",
+      "Java",
+      "Scala",
+      "Python"
+    ],
+    "database_and_cloud": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "AWS (EC2, S3, RDS)",
+      "Envoy"
+    ],
+    "analytics_and_marketing": [
+      "Segment",
+      "Google Analytics 4",
+      "Marketo",
+      "Amplitude"
+    ],
+    "payments_and_security": [
+      "Stripe Terminal",
+      "Stripe Radar",
+      "Vault Infrastructure",
+      "Okta"
+    ],
+    "detected_signatures": [
+      "react",
+      "nextjs",
+      "aws",
+      "stripe",
+      "cloudflare"
+    ]
+  },
+  "key_contacts": [
+    {
+      "name": "Patrick Collison",
+      "title": "Chief Executive Officer & Co-Founder",
+      "department": "Executive",
+      "relevance_note": "Ultimate decision maker for strategic infrastructure and global partnerships.",
+      "linkedin_url": "https://www.linkedin.com/in/patrickcollison",
+      "email": "patrick@stripe.com"
+    },
+    {
+      "name": "David Singleton",
+      "title": "Chief Technology Officer",
+      "department": "Engineering",
+      "relevance_note": "Leads all core engineering, infrastructure resilience, and distributed platforms.",
+      "linkedin_url": "https://www.linkedin.com/in/davidsingleton",
+      "email": "dave@stripe.com"
+    },
+    {
+      "name": "Claire Hughes Johnson",
+      "title": "Corporate Officer & Strategic Advisor",
+      "department": "Operations",
+      "relevance_note": "Authority on operational scaling and enterprise organizational effectiveness.",
+      "linkedin_url": "https://www.linkedin.com/in/claire-hughes-johnson",
+      "email": "claire@stripe.com"
+    }
+  ],
+  "scoring": {
+    "icp_fit_score": 96,
+    "intent_score": 92,
+    "overall_score": 94,
+    "qualification_tier": "Tier 1: Enterprise Target",
+    "fit_breakdown": {
+      "tech_alignment": 25,
+      "scale_and_headcount": 25,
+      "capital_health": 25,
+      "market_velocity": 21
+    },
+    "intent_signals": [
+      "Expanding autonomous AI agent billing protocols & machine-to-machine checkout",
+      "Aggressive hiring across enterprise payments integrations and global compliance",
+      "High-volume developer API updates across 40+ countries"
+    ],
+    "risk_factors": [
+      "Extremely strict internal procurement and security vetting cycles (6-9 months)",
+      "Proprietary in-house tooling bias for developer-facing workflows"
+    ]
+  },
+  "outreach": {
+    "recommended_persona": "Head of Enterprise Engineering / VP Payments",
+    "hook_angle": "Autonomous settlement rails and machine-to-machine checkout orchestration",
+    "cold_email_subject": "Stripe + autonomous M2M transaction automation",
+    "cold_email_body": "Hi Patrick,\n\nSaw Stripe's recent strides expanding programmatic checkout for agentic workflows. As autonomous agents begin transacting directly on behalf of engineering teams, traditional session-based payment flows bottleneck at invoice reconciliation.\n\nWe engineered an autonomous enrichment & execution pipeline that pairs machine-authenticated contracts with instant webhook settlement, cutting API integration friction by 68%.\n\nOpen to a brief 7-minute architecture walk next Tuesday?\n\nBest,\nRishii Yadav",
+    "discovery_questions": [
+      "How is your enterprise team standardizing programmatic API agent payouts across cross-border subsidiaries?",
+      "What is your current latency tolerance for real-time risk score enrichment prior to webhook dispatch?"
+    ]
+  },
+  "summary_markdown": "# \ud83c\udfe2 Enterprise Lead Dossier: Stripe\n> **Target Domain:** `stripe.com` | **Enrichment Source:** `offline_intelligence_fixtures` | **Generated:** `2026-09-09`\n\n---\n\n### \ud83c\udfaf Executive Qualification Matrix\n| Metric | Rating | Visual Gauge | Status |\n| :--- | :--- | :--- | :--- |\n| **Overall Score** | **94/100** | `[\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591]` | **Tier 1: Enterprise Target** |\n| **ICP Fit Score** | **96/100** | Tech (25/25) \u2022 Scale (25/25) | \u2705 High Target |\n| **Buying Intent** | **92/100** | Capital (25/25) \u2022 Market (21/25) | \ud83d\ude80 Active Buying Window |\n\n---\n\n### \ud83d\udccc Company Intelligence\n| Attribute | Detail |\n| :--- | :--- |\n| **Company Name** | **Stripe** |\n| **Website** | [https://stripe.com](https://stripe.com) |\n| **Industry** | FinTech / Payments Infrastructure |\n| **Founded** | 2010 |\n| **Headquarters** | South San Francisco, CA & Dublin, Ireland |\n| **Headcount** | **8,000+ employees** (Est. 8200 FTEs) |\n| **LinkedIn** | [Stripe LinkedIn](https://www.linkedin.com/company/stripe) |\n| **GitHub** | [Stripe GitHub](https://github.com/stripe) |\n\n**Overview:**\nFinancial infrastructure platform for the internet, powering payments, billing, and global commerce for millions of companies.\n\n---\n\n### \ud83d\udcb0 Financials & Capital Profile\n- **Total Raised:** `$8.7B+`\n- **Latest Round:** `Series I / Secondary` (2024-02)\n- **Estimated Valuation:** `$65B`\n- **Revenue Run-Rate:** `$14B+ Gross Revenue ($3B+ Net ARR)`\n- **Notable Backers:** Sequoia Capital, Founders Fund, Andreessen Horowitz, General Catalyst, Khosla Ventures\n\n---\n\n### \ud83d\udcbb Deep Technology Stack Profile\n| Layer | Detected Technologies & Infrastructure |\n| :--- | :--- |\n| **Frontend Frameworks** | React, TypeScript, Next.js, Tailwind CSS, GraphQL |\n| **Backend & APIs** | Ruby (Sorbet), Go, Java, Scala, Python |\n| **Database & Cloud Infrastructure** | PostgreSQL, MongoDB, Redis, AWS (EC2, S3, RDS), Envoy |\n| **Analytics & Telemetry** | Segment, Google Analytics 4, Marketo, Amplitude |\n| **Billing, Auth & Security** | Stripe Terminal, Stripe Radar, Vault Infrastructure, Okta |\n\n---\n\n### \ud83d\udc65 Key Decision Makers & Executives\n| Contact | Title | Department | Email Pattern | Strategic Relevance |\n| :--- | :--- | :--- | :--- | :--- |\n| **[Patrick Collison](https://www.linkedin.com/in/patrickcollison)** | Chief Executive Officer & Co-Founder | Executive | `patrick@stripe.com` | Ultimate decision maker for strategic infrastructure and global partnerships. |\n| **[David Singleton](https://www.linkedin.com/in/davidsingleton)** | Chief Technology Officer | Engineering | `dave@stripe.com` | Leads all core engineering, infrastructure resilience, and distributed platforms. |\n| **[Claire Hughes Johnson](https://www.linkedin.com/in/claire-hughes-johnson)** | Corporate Officer & Strategic Advisor | Operations | `claire@stripe.com` | Authority on operational scaling and enterprise organizational effectiveness. |\n\n---\n\n### \ud83d\udce1 Buying Intent Signals & Risk Assessment\n#### High-Intent Signals\n- \ud83d\udfe2 **Signal**: Expanding autonomous AI agent billing protocols & machine-to-machine checkout\n- \ud83d\udfe2 **Signal**: Aggressive hiring across enterprise payments integrations and global compliance\n- \ud83d\udfe2 **Signal**: High-volume developer API updates across 40+ countries\n\n#### Risk & Friction Assessment\n- \u26a0\ufe0f **Risk**: Extremely strict internal procurement and security vetting cycles (6-9 months)\n- \u26a0\ufe0f **Risk**: Proprietary in-house tooling bias for developer-facing workflows\n\n---\n\n### \u2709\ufe0f Hyper-Personalized Outreach Blueprint\n- **Target Persona:** `Head of Enterprise Engineering / VP Payments`\n- **Strategic Angle:** `Autonomous settlement rails and machine-to-machine checkout orchestration`\n- **Subject Line:** `Stripe + autonomous M2M transaction automation`\n\n```text\nHi Patrick,\n\nSaw Stripe's recent strides expanding programmatic checkout for agentic workflows. As autonomous agents begin transacting directly on behalf of engineering teams, traditional session-based payment flows bottleneck at invoice reconciliation.\n\nWe engineered an autonomous enrichment & execution pipeline that pairs machine-authenticated contracts with instant webhook settlement, cutting API integration friction by 68%.\n\nOpen to a brief 7-minute architecture walk next Tuesday?\n\nBest,\nRishii Yadav\n```\n\n#### Recommended Discovery Questions\n1. How is your enterprise team standardizing programmatic API agent payouts across cross-border subsidiaries?\n2. What is your current latency tolerance for real-time risk score enrichment prior to webhook dispatch?\n\n---\n*Autonomous Lead Intelligence Engine \u2022 Confidential Enterprise Asset*"
+}

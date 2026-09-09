@@ -1,0 +1,125 @@
+{
+  "lead_id": "lead_vercel_com",
+  "target_query": "vercel.com",
+  "timestamp": "2026-09-09T06:37:23.693993+00:00",
+  "enrichment_source": "offline_intelligence_fixtures",
+  "company": {
+    "name": "Vercel",
+    "domain": "vercel.com",
+    "url": "https://vercel.com",
+    "description": "The Frontend Cloud platform providing developer experience and edge infrastructure to build, deploy, and scale web applications.",
+    "industry": "Cloud Computing / Developer Tools",
+    "founded_year": 2015,
+    "headquarters": "San Francisco, CA, USA",
+    "team_size": "500-750 employees",
+    "estimated_headcount": 620,
+    "linkedin_url": "https://www.linkedin.com/company/vercel",
+    "twitter_handle": "@vercel",
+    "github_url": "https://github.com/vercel",
+    "contact_email": "press@vercel.com"
+  },
+  "financials": {
+    "total_raised": "$313M+",
+    "latest_round": "Series D / Growth",
+    "latest_round_date": "2024-05",
+    "valuation": "$3.25B",
+    "notable_investors": [
+      "Accel",
+      "CRV",
+      "GV",
+      "Tiger Global Management",
+      "Bedrock Capital"
+    ],
+    "revenue_stage": "$120M+ ARR"
+  },
+  "tech_stack": {
+    "frontend": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Geist UI"
+    ],
+    "backend": [
+      "Rust (Turbopack)",
+      "Go",
+      "Node.js",
+      "Edge Middleware"
+    ],
+    "database_and_cloud": [
+      "AWS",
+      "Cloudflare",
+      "Edge Network",
+      "Vercel Postgres",
+      "Vercel KV"
+    ],
+    "analytics_and_marketing": [
+      "Vercel Web Analytics",
+      "Segment",
+      "HubSpot",
+      "PostHog"
+    ],
+    "payments_and_security": [
+      "Stripe",
+      "WorkOS",
+      "DDoS Mitigation",
+      "Enterprise SSO"
+    ],
+    "detected_signatures": [
+      "nextjs",
+      "react",
+      "vercel",
+      "cloudflare",
+      "tailwind"
+    ]
+  },
+  "key_contacts": [
+    {
+      "name": "Guillermo Rauch",
+      "title": "Chief Executive Officer & Founder",
+      "department": "Executive",
+      "relevance_note": "Frontend pioneer, creator of Socket.io and Next.js, controls product roadmap.",
+      "linkedin_url": "https://www.linkedin.com/in/guillermo-rauch",
+      "email": "rauchg@vercel.com"
+    },
+    {
+      "name": "Malte Ubl",
+      "title": "Chief Technology Officer",
+      "department": "Engineering",
+      "relevance_note": "Directs engineering infrastructure, web standards, and distributed rendering.",
+      "linkedin_url": "https://www.linkedin.com/in/malteubl",
+      "email": "malte@vercel.com"
+    }
+  ],
+  "scoring": {
+    "icp_fit_score": 98,
+    "intent_score": 95,
+    "overall_score": 96,
+    "qualification_tier": "Tier 1: Enterprise Target",
+    "fit_breakdown": {
+      "tech_alignment": 25,
+      "scale_and_headcount": 25,
+      "capital_health": 25,
+      "market_velocity": 21
+    },
+    "intent_signals": [
+      "Leading the AI SDK and v0.dev generative UI ecosystem",
+      "Aggressive expansion into Enterprise AI frontends and secure edge computing",
+      "Over 1 billion monthly page requests served across global edge CDN"
+    ],
+    "risk_factors": [
+      "High brand awareness makes inbound noise substantial; cold outreach must be hyper-technical"
+    ]
+  },
+  "outreach": {
+    "recommended_persona": "VP of AI Ecosystem / Head of Product",
+    "hook_angle": "Autonomous code generation pipeline with AST validation for v0 & Next.js",
+    "cold_email_subject": "Autonomous AST-validated UI pipeline for Next.js",
+    "cold_email_body": "Hi Guillermo,\n\nThe velocity Vercel has unlocked with Next.js App Router and the AI SDK is unmatched. As teams generate more dynamic interfaces with v0, verifying that generated React components meet production accessibility and zero-CLS performance standards before deployment remains a challenge.\n\nWe engineered an autonomous enrichment and headless verification pipeline that compiles, lints, and captures visual Playwright diffs on Next.js branches in under 8 seconds.\n\nWould you be open to an 8-minute sync to see how it integrates with Vercel Preview deployments?\n\nBest,\nRishii Yadav",
+    "discovery_questions": [
+      "How are your enterprise clients automating accessibility and performance testing in their CI/CD preview pipelines?",
+      "What is the biggest friction point teams experience when connecting LLM outputs to live React components?"
+    ]
+  },
+  "summary_markdown": "# \ud83c\udfe2 Enterprise Lead Dossier: Vercel\n> **Target Domain:** `vercel.com` | **Enrichment Source:** `offline_intelligence_fixtures` | **Generated:** `2026-09-09`\n\n---\n\n### \ud83c\udfaf Executive Qualification Matrix\n| Metric | Rating | Visual Gauge | Status |\n| :--- | :--- | :--- | :--- |\n| **Overall Score** | **96/100** | `[\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591]` | **Tier 1: Enterprise Target** |\n| **ICP Fit Score** | **98/100** | Tech (25/25) \u2022 Scale (25/25) | \u2705 High Target |\n| **Buying Intent** | **95/100** | Capital (25/25) \u2022 Market (21/25) | \ud83d\ude80 Active Buying Window |\n\n---\n\n### \ud83d\udccc Company Intelligence\n| Attribute | Detail |\n| :--- | :--- |\n| **Company Name** | **Vercel** |\n| **Website** | [https://vercel.com](https://vercel.com) |\n| **Industry** | Cloud Computing / Developer Tools |\n| **Founded** | 2015 |\n| **Headquarters** | San Francisco, CA, USA |\n| **Headcount** | **500-750 employees** (Est. 620 FTEs) |\n| **LinkedIn** | [Vercel LinkedIn](https://www.linkedin.com/company/vercel) |\n| **GitHub** | [Vercel GitHub](https://github.com/vercel) |\n\n**Overview:**\nThe Frontend Cloud platform providing developer experience and edge infrastructure to build, deploy, and scale web applications.\n\n---\n\n### \ud83d\udcb0 Financials & Capital Profile\n- **Total Raised:** `$313M+`\n- **Latest Round:** `Series D / Growth` (2024-05)\n- **Estimated Valuation:** `$3.25B`\n- **Revenue Run-Rate:** `$120M+ ARR`\n- **Notable Backers:** Accel, CRV, GV, Tiger Global Management, Bedrock Capital\n\n---\n\n### \ud83d\udcbb Deep Technology Stack Profile\n| Layer | Detected Technologies & Infrastructure |\n| :--- | :--- |\n| **Frontend Frameworks** | Next.js, React, TypeScript, Tailwind CSS, Geist UI |\n| **Backend & APIs** | Rust (Turbopack), Go, Node.js, Edge Middleware |\n| **Database & Cloud Infrastructure** | AWS, Cloudflare, Edge Network, Vercel Postgres, Vercel KV |\n| **Analytics & Telemetry** | Vercel Web Analytics, Segment, HubSpot, PostHog |\n| **Billing, Auth & Security** | Stripe, WorkOS, DDoS Mitigation, Enterprise SSO |\n\n---\n\n### \ud83d\udc65 Key Decision Makers & Executives\n| Contact | Title | Department | Email Pattern | Strategic Relevance |\n| :--- | :--- | :--- | :--- | :--- |\n| **[Guillermo Rauch](https://www.linkedin.com/in/guillermo-rauch)** | Chief Executive Officer & Founder | Executive | `rauchg@vercel.com` | Frontend pioneer, creator of Socket.io and Next.js, controls product roadmap. |\n| **[Malte Ubl](https://www.linkedin.com/in/malteubl)** | Chief Technology Officer | Engineering | `malte@vercel.com` | Directs engineering infrastructure, web standards, and distributed rendering. |\n\n---\n\n### \ud83d\udce1 Buying Intent Signals & Risk Assessment\n#### High-Intent Signals\n- \ud83d\udfe2 **Signal**: Leading the AI SDK and v0.dev generative UI ecosystem\n- \ud83d\udfe2 **Signal**: Aggressive expansion into Enterprise AI frontends and secure edge computing\n- \ud83d\udfe2 **Signal**: Over 1 billion monthly page requests served across global edge CDN\n\n#### Risk & Friction Assessment\n- \u26a0\ufe0f **Risk**: High brand awareness makes inbound noise substantial; cold outreach must be hyper-technical\n\n---\n\n### \u2709\ufe0f Hyper-Personalized Outreach Blueprint\n- **Target Persona:** `VP of AI Ecosystem / Head of Product`\n- **Strategic Angle:** `Autonomous code generation pipeline with AST validation for v0 & Next.js`\n- **Subject Line:** `Autonomous AST-validated UI pipeline for Next.js`\n\n```text\nHi Guillermo,\n\nThe velocity Vercel has unlocked with Next.js App Router and the AI SDK is unmatched. As teams generate more dynamic interfaces with v0, verifying that generated React components meet production accessibility and zero-CLS performance standards before deployment remains a challenge.\n\nWe engineered an autonomous enrichment and headless verification pipeline that compiles, lints, and captures visual Playwright diffs on Next.js branches in under 8 seconds.\n\nWould you be open to an 8-minute sync to see how it integrates with Vercel Preview deployments?\n\nBest,\nRishii Yadav\n```\n\n#### Recommended Discovery Questions\n1. How are your enterprise clients automating accessibility and performance testing in their CI/CD preview pipelines?\n2. What is the biggest friction point teams experience when connecting LLM outputs to live React components?\n\n---\n*Autonomous Lead Intelligence Engine \u2022 Confidential Enterprise Asset*"
+}

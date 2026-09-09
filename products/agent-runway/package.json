@@ -1,0 +1,58 @@
+{
+  "name": "agent-runway",
+  "version": "1.0.0",
+  "description": "Autonomous runtime monitor, ledger auditor, and cost-efficiency toolkit for AI agents",
+  "keywords": [
+    "ai",
+    "agents",
+    "cost-tracking",
+    "runway",
+    "token-counter",
+    "budget",
+    "killswitch",
+    "ledger",
+    "audit",
+    "llm",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "ollama"
+  ],
+  "author": "Hrishikesh Yadav <rishiicreates@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "agent-runway": "./bin/agent-runway.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@vitest/coverage-v8": "^3.0.8",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

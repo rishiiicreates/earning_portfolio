@@ -1,0 +1,121 @@
+{
+  "lead_id": "lead_retool_com",
+  "target_query": "retool.com",
+  "timestamp": "2026-09-09T06:37:23.693806+00:00",
+  "enrichment_source": "offline_intelligence_fixtures",
+  "company": {
+    "name": "Retool",
+    "domain": "retool.com",
+    "url": "https://retool.com",
+    "description": "The fast way to build internal tools. Visually design user interfaces, connect to any database or API, and write custom queries with JavaScript.",
+    "industry": "Enterprise Low-Code / Internal Tools",
+    "founded_year": 2017,
+    "headquarters": "San Francisco, CA, USA",
+    "team_size": "300-500 employees",
+    "estimated_headcount": 420,
+    "linkedin_url": "https://www.linkedin.com/company/retool",
+    "twitter_handle": "@retool",
+    "github_url": "https://github.com/tryretool",
+    "contact_email": "sales@retool.com"
+  },
+  "financials": {
+    "total_raised": "$127M+",
+    "latest_round": "Series C",
+    "latest_round_date": "2022-07",
+    "valuation": "$3.2B",
+    "notable_investors": [
+      "Sequoia Capital",
+      "John Collison",
+      "Patrick Collison",
+      "Nat Friedman"
+    ],
+    "revenue_stage": "$100M+ ARR"
+  },
+  "tech_stack": {
+    "frontend": [
+      "React",
+      "TypeScript",
+      "Redux",
+      "Custom Component Framework"
+    ],
+    "backend": [
+      "Node.js",
+      "Python",
+      "Go"
+    ],
+    "database_and_cloud": [
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Kubernetes",
+      "Docker"
+    ],
+    "analytics_and_marketing": [
+      "Segment",
+      "PostHog",
+      "Clearbit",
+      "HubSpot"
+    ],
+    "payments_and_security": [
+      "Stripe",
+      "Okta",
+      "SAML SSO",
+      "Audit Logs"
+    ],
+    "detected_signatures": [
+      "react",
+      "typescript",
+      "aws",
+      "segment"
+    ]
+  },
+  "key_contacts": [
+    {
+      "name": "David Hsu",
+      "title": "Chief Executive Officer & Founder",
+      "department": "Executive",
+      "relevance_note": "Drives company strategy, enterprise positioning, and core product architecture.",
+      "linkedin_url": "https://www.linkedin.com/in/david-hsu-retool",
+      "email": "david@retool.com"
+    },
+    {
+      "name": "Mark Coleman",
+      "title": "VP of Engineering",
+      "department": "Engineering",
+      "relevance_note": "Oversees enterprise self-hosted deployment, governance, and cloud infrastructure.",
+      "linkedin_url": "https://www.linkedin.com/in/markcoleman",
+      "email": "mark@retool.com"
+    }
+  ],
+  "scoring": {
+    "icp_fit_score": 91,
+    "intent_score": 88,
+    "overall_score": 90,
+    "qualification_tier": "Tier 1: Enterprise Target",
+    "fit_breakdown": {
+      "tech_alignment": 23,
+      "scale_and_headcount": 25,
+      "capital_health": 24,
+      "market_velocity": 18
+    },
+    "intent_signals": [
+      "Launched Retool AI, Retool Workflows, and Retool Mobile",
+      "Expanding self-hosted enterprise deployments with strict air-gapped security",
+      "Targeting Fortune 500 operations and fintech internal portal consolidation"
+    ],
+    "risk_factors": [
+      "Enterprise sales cycles can involve multiple internal IT and compliance stakeholders"
+    ]
+  },
+  "outreach": {
+    "recommended_persona": "VP of Solutions Engineering / Head of Enterprise Partnerships",
+    "hook_angle": "Automated workflow backends for mission-critical Retool frontends",
+    "cold_email_subject": "Pre-built n8n & Python workflow orchestration for Retool apps",
+    "cold_email_body": "Hi David,\n\nRetool has transformed how engineering teams deliver operational internal software. However, as apps scale beyond simple CRUD into asynchronous multi-step lead enrichment and scheduled compliance batch jobs, building stateful queues inside Retool Workflows requires custom glue code.\n\nWe designed an autonomous enterprise pipeline connecting n8n and hardened Python runners that seamlessly feeds clean JSON briefing cards directly into Retool table components with sub-second latency.\n\nDo you have 10 minutes for a brief architecture demo?\n\nBest,\nRishii Yadav",
+    "discovery_questions": [
+      "How are your enterprise architects tackling long-running background tasks (>5 min) in Retool Workflows?",
+      "What is your target integration pattern for automated third-party data enrichment?"
+    ]
+  },
+  "summary_markdown": "# \ud83c\udfe2 Enterprise Lead Dossier: Retool\n> **Target Domain:** `retool.com` | **Enrichment Source:** `offline_intelligence_fixtures` | **Generated:** `2026-09-09`\n\n---\n\n### \ud83c\udfaf Executive Qualification Matrix\n| Metric | Rating | Visual Gauge | Status |\n| :--- | :--- | :--- | :--- |\n| **Overall Score** | **90/100** | `[\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591]` | **Tier 1: Enterprise Target** |\n| **ICP Fit Score** | **91/100** | Tech (23/25) \u2022 Scale (25/25) | \u2705 High Target |\n| **Buying Intent** | **88/100** | Capital (24/25) \u2022 Market (18/25) | \ud83d\ude80 Active Buying Window |\n\n---\n\n### \ud83d\udccc Company Intelligence\n| Attribute | Detail |\n| :--- | :--- |\n| **Company Name** | **Retool** |\n| **Website** | [https://retool.com](https://retool.com) |\n| **Industry** | Enterprise Low-Code / Internal Tools |\n| **Founded** | 2017 |\n| **Headquarters** | San Francisco, CA, USA |\n| **Headcount** | **300-500 employees** (Est. 420 FTEs) |\n| **LinkedIn** | [Retool LinkedIn](https://www.linkedin.com/company/retool) |\n| **GitHub** | [Retool GitHub](https://github.com/tryretool) |\n\n**Overview:**\nThe fast way to build internal tools. Visually design user interfaces, connect to any database or API, and write custom queries with JavaScript.\n\n---\n\n### \ud83d\udcb0 Financials & Capital Profile\n- **Total Raised:** `$127M+`\n- **Latest Round:** `Series C` (2022-07)\n- **Estimated Valuation:** `$3.2B`\n- **Revenue Run-Rate:** `$100M+ ARR`\n- **Notable Backers:** Sequoia Capital, John Collison, Patrick Collison, Nat Friedman\n\n---\n\n### \ud83d\udcbb Deep Technology Stack Profile\n| Layer | Detected Technologies & Infrastructure |\n| :--- | :--- |\n| **Frontend Frameworks** | React, TypeScript, Redux, Custom Component Framework |\n| **Backend & APIs** | Node.js, Python, Go |\n| **Database & Cloud Infrastructure** | PostgreSQL, Redis, AWS, Kubernetes, Docker |\n| **Analytics & Telemetry** | Segment, PostHog, Clearbit, HubSpot |\n| **Billing, Auth & Security** | Stripe, Okta, SAML SSO, Audit Logs |\n\n---\n\n### \ud83d\udc65 Key Decision Makers & Executives\n| Contact | Title | Department | Email Pattern | Strategic Relevance |\n| :--- | :--- | :--- | :--- | :--- |\n| **[David Hsu](https://www.linkedin.com/in/david-hsu-retool)** | Chief Executive Officer & Founder | Executive | `david@retool.com` | Drives company strategy, enterprise positioning, and core product architecture. |\n| **[Mark Coleman](https://www.linkedin.com/in/markcoleman)** | VP of Engineering | Engineering | `mark@retool.com` | Oversees enterprise self-hosted deployment, governance, and cloud infrastructure. |\n\n---\n\n### \ud83d\udce1 Buying Intent Signals & Risk Assessment\n#### High-Intent Signals\n- \ud83d\udfe2 **Signal**: Launched Retool AI, Retool Workflows, and Retool Mobile\n- \ud83d\udfe2 **Signal**: Expanding self-hosted enterprise deployments with strict air-gapped security\n- \ud83d\udfe2 **Signal**: Targeting Fortune 500 operations and fintech internal portal consolidation\n\n#### Risk & Friction Assessment\n- \u26a0\ufe0f **Risk**: Enterprise sales cycles can involve multiple internal IT and compliance stakeholders\n\n---\n\n### \u2709\ufe0f Hyper-Personalized Outreach Blueprint\n- **Target Persona:** `VP of Solutions Engineering / Head of Enterprise Partnerships`\n- **Strategic Angle:** `Automated workflow backends for mission-critical Retool frontends`\n- **Subject Line:** `Pre-built n8n & Python workflow orchestration for Retool apps`\n\n```text\nHi David,\n\nRetool has transformed how engineering teams deliver operational internal software. However, as apps scale beyond simple CRUD into asynchronous multi-step lead enrichment and scheduled compliance batch jobs, building stateful queues inside Retool Workflows requires custom glue code.\n\nWe designed an autonomous enterprise pipeline connecting n8n and hardened Python runners that seamlessly feeds clean JSON briefing cards directly into Retool table components with sub-second latency.\n\nDo you have 10 minutes for a brief architecture demo?\n\nBest,\nRishii Yadav\n```\n\n#### Recommended Discovery Questions\n1. How are your enterprise architects tackling long-running background tasks (>5 min) in Retool Workflows?\n2. What is your target integration pattern for automated third-party data enrichment?\n\n---\n*Autonomous Lead Intelligence Engine \u2022 Confidential Enterprise Asset*"
+}

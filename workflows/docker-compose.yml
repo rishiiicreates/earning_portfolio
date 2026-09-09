@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:latest
+    container_name: n8n-lead-enrichment
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - N8N_HOST=localhost
+      - N8N_EDITOR_BASE_URL=http://localhost:5678/
+      - WEBHOOK_URL=http://localhost:5678/
+      - NODE_FUNCTION_ALLOW_EXTERNAL=*
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY:-enterprise-lead-enrichment-key-2026}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY:-}
+      - SERPER_API_KEY=${SERPER_API_KEY:-}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./:/data/workflows:ro
+
+  pipeline-runner:
+    image: python:3.11-slim
+    container_name: lead-pipeline-cli
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY:-}
+      - SERPER_API_KEY=${SERPER_API_KEY:-}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    command: ["tail", "-f", "/dev/null"]
+
+volumes:
+  n8n_data:
