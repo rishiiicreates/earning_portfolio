@@ -1,0 +1,22 @@
+{
+  "listingId": "f4336524-b7ef-412c-bdb8-05f8420a0c2e",
+  "link": "https://solana-redesign.vercel.app",
+  "tweet": "",
+  "telegram": "",
+  "ask": null,
+  "eligibilityAnswers": [
+    {
+      "question": "Which app did you redesign, and which features did you pick?",
+      "answer": "redesigned jupiter exchange (jup.ag) focusing directly on the instant swap terminal, liquidity routing, and mev protection. picked four specific interactions to rebuild from scratch: 1-click jito bundle shield toggle with preset tip tiers, dynamic multi-hop liquidity routing visualizer across orca whirlpool, raydium clmm, and phoenix lob, dedicated 390px mobile viewport ergonomics to eliminate software keyboard occlusion in phantom and solflare, and transparent post-swap execution receipts with slot telemetry."
+    },
+    {
+      "question": "What was the biggest problem you found in the current design, in 2–3 sentences?",
+      "answer": "the biggest problem is that jupiter hides critical mev defense inside nested technical configuration drawers with confusing micro-lamport fee sliders, causing retail traders to routinely get sandwiched by searcher bots on volatile pairs. additionally, routing data is shown as static text without visual liquidity depth or fee attribution, which makes users paranoid about slippage. on mobile in-app browsers, the swap button gets pushed below the fold and blocked by the software keyboard, resulting in misclicks and dropped trades during fast moves."
+    },
+    {
+      "question": "Live link to your redesign (optional)",
+      "answer": "https://solana-redesign.vercel.app"
+    }
+  ],
+  "otherInfo": "built a complete live functional redesign prototype deployed on vercel at https://solana-redesign.vercel.app and open sourced at https://github.com/rishiiicreates/solana-jupiter-redesign\n\ninstead of just static figma frames, i built the entire experience with interactive token swaps, live price conversions, desktop and mobile viewport toggles, an interactive before vs after ux comparison teardown tab, and an in-app case study reader.\n\nfor mev protection, rather than burying private mempool routing inside technical settings drawers, i surfaced a prominent 1-click jito bundle shield right above the main swap button with instant normal, turbo, and ultra tip tiers so retail traders never get frontrun or sandwiched on volatile tokens.\n\nfor routing transparency, instead of static text lists with vague percentages, i built a glassmorphic multi-hop visualizer displaying live allocation across orca concentrated liquidity (52%), raydium clmm (34%), and phoenix orderbook (14%) with fee tier metrics and total pool depth so users see exactly why their trade route saves them money.\n\nfor mobile ergonomics, i designed a strict 390px viewport frame optimized for phantom and solflare in-app browsers where all critical touch targets sit in the lower 45% thumb zone, completely eliminating the keyboard overlap and accidental double-tap problems present in jupiter v6.\n\nall screenshots, before and after teardowns, and full architectural breakdown are documented in the repo case study at https://github.com/rishiiicreates/solana-jupiter-redesign/blob/main/CASE_STUDY.md\n\npayout address: 0x3028C30B8c8985Bd54669BC313Fe7950fCeB1142"
+}

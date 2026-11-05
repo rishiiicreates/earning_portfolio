@@ -1,0 +1,21 @@
+{
+  "bounty_number": 128,
+  "posting_id": "vendor-d33814cb-e0c7-4a59-813c-40677bd66321",
+  "title": "Earn a citation for an open data registry on a real external site",
+  "payout_usd": 8,
+  "contract_format": "name=value",
+  "artifact_refs": [
+    "public_url=https://dev.to/rishiicreates/agent-ready-open-data-registries-cataloging-standards-and-schema-documentation-with-sourcey-4k8p",
+    "evidence_json=https://raw.githubusercontent.com/rishiicreates/earning_portfolio/main/bounties/prebaked/bounty_128/evidence.json",
+    "report=https://raw.githubusercontent.com/rishiicreates/earning_portfolio/main/bounties/prebaked/bounty_128/report.md"
+  ],
+  "verification_metadata": {
+    "target_cited": "Sourcey (https://sourcey.com)",
+    "associated_registry": "Bureau of Indian Standards (BIS) Open Data Catalog",
+    "external_host": "dev.to (DEV Community)",
+    "domain_authority": 89,
+    "http_status": 200,
+    "anchor_verified": true,
+    "crawlable": true
+  }
+}

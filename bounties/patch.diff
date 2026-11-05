@@ -1,0 +1,215 @@
+diff --git a/drizzle-orm/src/utils.ts b/drizzle-orm/src/utils.ts
+index 6f76594..3f58651 100644
+--- a/drizzle-orm/src/utils.ts
++++ b/drizzle-orm/src/utils.ts
+@@ -43,14 +43,20 @@ export function mapResultRow<TResult>(
+ 					const rawValue = row[columnIndex]!;
+ 					const value = node[pathChunk] = rawValue === null ? null : decoder.mapFromDriverValue(rawValue);
+ 
+-					if (joinsNotNullableMap && is(field, Column) && path.length === 2) {
++					if (joinsNotNullableMap && path.length === 2) {
+ 						const objectName = path[0]!;
+-						if (!(objectName in nullifyMap)) {
+-							nullifyMap[objectName] = value === null ? getTableName(field.table) : false;
+-						} else if (
+-							typeof nullifyMap[objectName] === 'string' && nullifyMap[objectName] !== getTableName(field.table)
+-						) {
++						if (!is(field, Column)) {
+ 							nullifyMap[objectName] = false;
++						} else {
++							const tableName = getTableName(field.table);
++							if (!(objectName in nullifyMap)) {
++								nullifyMap[objectName] = value === null ? tableName : false;
++							} else if (
++								typeof nullifyMap[objectName] === 'string'
++								&& (nullifyMap[objectName] !== tableName || value !== null)
++							) {
++								nullifyMap[objectName] = false;
++							}
+ 						}
+ 					}
+ 				}
+diff --git a/drizzle-orm/tests/utils.test.ts b/drizzle-orm/tests/utils.test.ts
+new file mode 100644
+index 0000000..3474d69
+--- /dev/null
++++ b/drizzle-orm/tests/utils.test.ts
+@@ -0,0 +1,178 @@
++import { expect, test } from 'vitest';
++import { sql } from '~/index.ts';
++import { pgTable, text } from '~/pg-core/index.ts';
++import { mapResultRow, orderSelectedFields } from '~/utils.ts';
++
++const orgTable = pgTable('org', {
++	name: text('name'),
++	slug: text('slug'),
++});
++
++const orgBrandingTable = pgTable('org_branding', {
++	logo: text('logo'),
++	panelBackground: text('panel_background_colour'),
++	accentColor: text('accent_colour'),
++});
++
++const otherTable = pgTable('other', {
++	note: text('note'),
++});
++
++test('issue #1603: nested partial select on left join when first column is null and second is non-null', () => {
++	const fields = {
++		name: orgTable.name,
++		slug: orgTable.slug,
++		branding: {
++			logo: orgBrandingTable.logo, // null in database
++			panelBackground: orgBrandingTable.panelBackground, // "#1a8cff" in database
++		},
++	};
++
++	const columns = orderSelectedFields(fields);
++	const row = ['Test org 2', 'test-org-2', null, '#1a8cff'];
++	const joinsNotNullableMap = {
++		org: true,
++		org_branding: false,
++	};
++
++	const result = mapResultRow(columns, row, joinsNotNullableMap);
++
++	expect(result).toEqual({
++		name: 'Test org 2',
++		slug: 'test-org-2',
++		branding: {
++			logo: null,
++			panelBackground: '#1a8cff',
++		},
++	});
++});
++
++test('issue #1603: swapped order: first column is non-null and second is null', () => {
++	const fields = {
++		name: orgTable.name,
++		slug: orgTable.slug,
++		branding: {
++			panelBackground: orgBrandingTable.panelBackground, // "#1a8cff" in database
++			logo: orgBrandingTable.logo, // null in database
++		},
++	};
++
++	const columns = orderSelectedFields(fields);
++	const row = ['Test org 2', 'test-org-2', '#1a8cff', null];
++	const joinsNotNullableMap = {
++		org: true,
++		org_branding: false,
++	};
++
++	const result = mapResultRow(columns, row, joinsNotNullableMap);
++
++	expect(result).toEqual({
++		name: 'Test org 2',
++		slug: 'test-org-2',
++		branding: {
++			panelBackground: '#1a8cff',
++			logo: null,
++		},
++	});
++});
++
++test('nested partial select on left join when all columns are null should be null', () => {
++	const fields = {
++		name: orgTable.name,
++		slug: orgTable.slug,
++		branding: {
++			logo: orgBrandingTable.logo,
++			panelBackground: orgBrandingTable.panelBackground,
++		},
++	};
++
++	const columns = orderSelectedFields(fields);
++	const row = ['Test org 2', 'test-org-2', null, null];
++	const joinsNotNullableMap = {
++		org: true,
++		org_branding: false,
++	};
++
++	const result = mapResultRow(columns, row, joinsNotNullableMap);
++
++	expect(result).toEqual({
++		name: 'Test org 2',
++		slug: 'test-org-2',
++		branding: null,
++	});
++});
++
++test('nested partial select with 3 columns: null, null, non-null preserves object', () => {
++	const fields = {
++		branding: {
++			logo: orgBrandingTable.logo,
++			accentColor: orgBrandingTable.accentColor,
++			panelBackground: orgBrandingTable.panelBackground,
++		},
++	};
++
++	const columns = orderSelectedFields(fields);
++	const row = [null, null, '#1a8cff'];
++	const joinsNotNullableMap = {
++		org_branding: false,
++	};
++
++	const result = mapResultRow(columns, row, joinsNotNullableMap);
++
++	expect(result).toEqual({
++		branding: {
++			logo: null,
++			accentColor: null,
++			panelBackground: '#1a8cff',
++		},
++	});
++});
++
++test('nested object with mixed tables is not nullified even if one table column is null', () => {
++	const fields = {
++		composite: {
++			logo: orgBrandingTable.logo, // null
++			note: otherTable.note, // 'test-note'
++		},
++	};
++
++	const columns = orderSelectedFields(fields);
++	const row = [null, 'test-note'];
++	const joinsNotNullableMap = {
++		org_branding: false,
++		other: false,
++	};
++
++	const result = mapResultRow(columns, row, joinsNotNullableMap);
++
++	expect(result).toEqual({
++		composite: {
++			logo: null,
++			note: 'test-note',
++		},
++	});
++});
++
++test('nested object with SQL expression is not nullified when column is null', () => {
++	const fields = {
++		branding: {
++			logo: orgBrandingTable.logo, // null
++			constant: sql<string>`'custom-val'`,
++		},
++	};
++
++	const columns = orderSelectedFields(fields);
++	const row = [null, 'custom-val'];
++	const joinsNotNullableMap = {
++		org_branding: false,
++	};
++
++	const result = mapResultRow(columns, row, joinsNotNullableMap);
++
++	expect(result).toEqual({
++		branding: {
++			logo: null,
++			constant: 'custom-val',
++		},
++	});
++});

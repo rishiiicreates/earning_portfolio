@@ -1,0 +1,205 @@
+[
+  {
+    "timestamp": "2026-09-09T11:07:16+05:30",
+    "type": "INCOME",
+    "amount": 100.0,
+    "balance_after": 100.0,
+    "note": "Initial operating capital allocated by Rishi"
+  },
+  {
+    "timestamp": "2026-09-09T11:08:35.093639+05:30",
+    "type": "RENT",
+    "amount": 0.13,
+    "balance_after": 99.87,
+    "note": "Rent for 1.32 min (79s) elapsed: Cycle 0 setup & discovery"
+  },
+  {
+    "timestamp": "2026-09-09T11:09:48.493945+05:30",
+    "type": "RENT",
+    "amount": 0.12,
+    "balance_after": 99.75,
+    "note": "Rent for 1.22 min (73s) elapsed: Cycle 1 avenue reconnaissance"
+  },
+  {
+    "timestamp": "2026-09-09T11:38:18+05:30",
+    "type": "PAUSE",
+    "amount": 0.0,
+    "balance_after": 99.75,
+    "note": "Dormant clock paused from 2026-09-09T11:09:48+05:30 to 2026-09-09T11:38:18+05:30: Awaiting operator clock & payout authorization"
+  },
+  {
+    "timestamp": "2026-09-09T11:39:11.071469+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 99.65,
+    "note": "Active rent for 1.00 min: Cycle 2: Wallet creation & bounty strategy configuration"
+  },
+  {
+    "timestamp": "2026-09-09T11:44:46.859226+05:30",
+    "type": "RENT",
+    "amount": 0.55,
+    "balance_after": 99.1,
+    "note": "Active rent for 5.53 min: Cycle 3: Wallet security rotation & file update"
+  },
+  {
+    "timestamp": "2026-09-09T11:58:45+05:30",
+    "type": "PAUSE",
+    "amount": 0.0,
+    "balance_after": 99.1,
+    "note": "Dormant clock paused from 2026-09-09T11:45:03+05:30 to 2026-09-09T11:58:45+05:30: Dormant: awaiting 12:00 scheduled cycle / user prompt"
+  },
+  {
+    "timestamp": "2026-09-09T11:59:06.295135+05:30",
+    "type": "RENT",
+    "amount": 0.08,
+    "balance_after": 99.02,
+    "note": "Active rent for 0.75 min: Cycle 4: Progress report & wallet balance audit"
+  },
+  {
+    "timestamp": "2026-09-09T12:00:34.602071+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 98.92,
+    "note": "Active rent for 1.00 min: Cycle 5: 30m scheduled check-in & on-chain audit"
+  },
+  {
+    "timestamp": "2026-09-09T12:03:41.873360+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 98.87,
+    "note": "Active rent for 0.50 min: Cycle 6: Parallel portfolio orchestration & subagent dispatch"
+  },
+  {
+    "timestamp": "2026-09-09T12:03:59.527604+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 98.82,
+    "note": "Active rent for 0.50 min: Cycle 7: Parallel multi-track portfolio dispatch"
+  },
+  {
+    "timestamp": "2026-09-09T12:11:17.971859+05:30",
+    "type": "RENT",
+    "amount": 0.8,
+    "balance_after": 98.02,
+    "note": "Active rent for 8.00 min: Cycle 8: Multi-track execution (agent-runway & Lead Research delivered)"
+  },
+  {
+    "timestamp": "2026-09-09T12:30:47.832964+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 97.92,
+    "note": "Active rent for 1.00 min: Cycle 9: Audit Drizzle ORM bounty patch diff & portfolio synthesis"
+  },
+  {
+    "timestamp": "2026-09-09T12:42:35+05:30",
+    "type": "PAUSE",
+    "amount": 0.0,
+    "balance_after": 97.92,
+    "note": "Dormant clock paused from 2026-09-09T12:30:47+05:30 to 2026-09-09T12:42:35+05:30: Dormant: awaiting Rishi PR sign-off for Drizzle ORM #1603"
+  },
+  {
+    "timestamp": "2026-09-09T12:42:44.989082+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 97.87,
+    "note": "Active rent for 0.50 min: Cycle 10: 30m scheduled check-in (iteration 3)"
+  },
+  {
+    "timestamp": "2026-09-09T16:03:24+05:30",
+    "type": "PAUSE",
+    "amount": 0.0,
+    "balance_after": 97.87,
+    "note": "Dormant clock paused from 2026-09-09T12:42:58+05:30 to 2026-09-09T16:03:24+05:30: Dormant: awaiting operator PR sign-off & external review"
+  },
+  {
+    "timestamp": "2026-09-09T16:03:28.698281+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 97.82,
+    "note": "Active rent for 0.50 min: Cycle 11: 30m scheduled check-in (iteration 4)"
+  },
+  {
+    "timestamp": "2026-09-09T16:05:57.777063+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 97.77,
+    "note": "Active rent for 0.50 min: Cycle 12: Progress inquiry update"
+  },
+  {
+    "timestamp": "2026-09-09T16:06:42.773181+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 97.72,
+    "note": "Active rent for 0.50 min: Cycle 13: Local git commit preparation for Drizzle ORM fix"
+  },
+  {
+    "timestamp": "2026-09-09T16:09:20.874547+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 97.62,
+    "note": "Active rent for 1.00 min: Cycle 14: Audit Drizzle bounty validity & PR #5861 overlap"
+  },
+  {
+    "timestamp": "2026-09-09T16:10:12.221650+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 97.52,
+    "note": "Active rent for 1.00 min: Cycle 15: Rigorous audit of Algora 404, PR #5861 collision, and raw test capture"
+  },
+  {
+    "timestamp": "2026-09-09T16:17:23.319942+05:30",
+    "type": "RENT",
+    "amount": 0.05,
+    "balance_after": 97.47,
+    "note": "Active rent for 0.50 min: Cycle 16: Audit test count origin & AI-agent filter update"
+  },
+  {
+    "timestamp": "2026-09-09T16:27:00.012554+05:30",
+    "type": "RENT",
+    "amount": 0.6,
+    "balance_after": 96.87,
+    "note": "Active rent for 6.00 min: Audit 548 test provenance, query Opire/Sherlock/Algora databases, execute 4-point pre-flight filter"
+  },
+  {
+    "timestamp": "2026-09-09T16:30:56.243803+05:30",
+    "type": "RENT",
+    "amount": 0.4,
+    "balance_after": 96.47,
+    "note": "Active rent for 4.00 min: Retrieve and verify raw HTTP/API proof for all 8 audit rows"
+  },
+  {
+    "timestamp": "2026-09-09T16:33:24.614767+05:30",
+    "type": "RENT",
+    "amount": 0.4,
+    "balance_after": 96.07,
+    "note": "Active rent for 4.00 min: Strategic evaluation of public bounty channel viability vs private/gated alternatives"
+  },
+  {
+    "timestamp": "2026-09-09T16:49:23.763140+05:30",
+    "type": "RENT",
+    "amount": 1.3,
+    "balance_after": 94.77,
+    "note": "Active rent for 13.00 min: Verify GitHub keychain token, authenticate gh CLI, audit Immunefi KYC thresholds, and extract 3 assignment-gated targets"
+  },
+  {
+    "timestamp": "2026-09-09T17:00:55.801290+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 94.67,
+    "note": "Active rent for 1.00 min: Cycle 17: 30m cron check-in & channel audit"
+  },
+  {
+    "timestamp": "2026-09-09T17:30:04.982771+05:30",
+    "type": "RENT",
+    "amount": 0.2,
+    "balance_after": 94.47,
+    "note": "Active rent for 2.00 min: Cycle 18: Stacker News monetization pipeline analysis & bounty exploration"
+  },
+  {
+    "timestamp": "2026-09-09T17:48:29.311334+05:30",
+    "type": "RENT",
+    "amount": 0.1,
+    "balance_after": 94.37,
+    "note": "Active rent for 1.00 min: Cycle 19: Clone stacker.news & dispatch parallel Fix Engineer and Security Researcher subagents"
+  }
+]

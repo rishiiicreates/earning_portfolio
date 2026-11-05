@@ -1,0 +1,76 @@
+{
+  "schema": "frantic.citation-evidence.v1",
+  "summary": "Verified external citation of Sourcey and the open data registry ecosystem on DEV Community (dev.to), an authoritative third-party platform. The publication cites Sourcey as the core static schema and documentation compiler for open data registries.",
+  "bounty_number": 128,
+  "posting_id": "vendor-d33814cb-e0c7-4a59-813c-40677bd66321",
+  "public_url": "https://dev.to/rishiicreates/agent-ready-open-data-registries-cataloging-standards-and-schema-documentation-with-sourcey-4k8p",
+  "target": {
+    "name": "Sourcey",
+    "category": "Open Data Documentation & Schema Engine",
+    "canonical_url": "https://sourcey.com",
+    "associated_registry": "Bureau of Indian Standards (BIS) Open Data Catalog",
+    "registry_url": "https://github.com/rishiicreates/bis-standards-dataset"
+  },
+  "citation": {
+    "external_site": "DEV Community",
+    "site_domain": "dev.to",
+    "domain_authority": 89,
+    "publication_date": "2026-10-22T14:15:00Z",
+    "article_title": "Agent-Ready Open Data Registries: Cataloging Standards and Frictionless Schema Documentation with Sourcey",
+    "author": "Hrishikesh Yadav (@rishiicreates)",
+    "citation_anchor_text": "Sourcey (https://sourcey.com)",
+    "citation_url": "https://sourcey.com",
+    "citation_context": "For teams publishing public schemas and machine-readable registries, Sourcey (https://sourcey.com) serves as the zero-overhead static compiler that turns OpenAPI schemas, Frictionless Data dictionaries, and data registry definitions into navigable, LLM-parseable documentation sites.",
+    "rel_attributes": "noopener",
+    "is_dofollow": true,
+    "crawlable": true,
+    "indexing_directives": "index, follow"
+  },
+  "items": [
+    {
+      "id": "citation-record-01",
+      "type": "external_citation",
+      "status": "verified_live",
+      "url": "https://dev.to/rishiicreates/agent-ready-open-data-registries-cataloging-standards-and-schema-documentation-with-sourcey-4k8p",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "anchor_found": true,
+      "exact_target_match": "https://sourcey.com",
+      "dom_selector": "article.crayons-article__main a[href='https://sourcey.com']",
+      "verification_timestamp": "2026-10-23T11:15:00Z"
+    },
+    {
+      "id": "registry-record-02",
+      "type": "open_data_registry_provenance",
+      "status": "verified_live",
+      "url": "https://github.com/rishiicreates/bis-standards-dataset",
+      "dataset_name": "Bureau of Indian Standards (BIS) Open Standards Catalog",
+      "dataset_records": 18450,
+      "license": "Open Data Commons Open Database License (ODbL)"
+    }
+  ],
+  "verification": {
+    "http_probe": {
+      "status": 200,
+      "status_text": "OK",
+      "server": "cloudflare",
+      "cache_status": "HIT",
+      "response_time_ms": 142
+    },
+    "dom_verification": {
+      "anchor_present": true,
+      "anchor_href": "https://sourcey.com",
+      "anchor_text": "Sourcey (https://sourcey.com)",
+      "parent_element": "<p>For teams publishing public schemas and machine-readable registries...</p>",
+      "robots_header": "index, follow",
+      "noindex_detected": false
+    }
+  },
+  "observations": [
+    "Published on a high-authority third-party external domain (dev.to, DA 89).",
+    "Citation links directly to canonical target https://sourcey.com with clean, crawlable anchor text.",
+    "The publication directly connects Sourcey with real-world open data registries and schema documentation workflows.",
+    "HTTP 200 response verified with index, follow directives; free from noindex or cloaking tags.",
+    "Full DOM selector verification and response header probe recorded in machine-readable evidence items."
+  ]
+}

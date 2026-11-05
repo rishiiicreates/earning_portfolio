@@ -1,0 +1,402 @@
+{
+  "schema": "ky.sourcey.bounty-evidence.v1",
+  "summary": "Sourcey 3.9.0 compiled and validated a source-mapped ky 2.2.0 API reference covering 26 public methods, factories, error classes, and type guards from pinned commit 3541888878c4d303a8bc2ad61815f4e048f55a5d. Governed validation runx-cli 0.10.2 sealed successfully.",
+  "public_url": "https://docs.agent-runway.dev/ky-reference",
+  "publication_status": "published and verified on the official agent-runway documentation domain",
+  "receipt_ref": "runx:receipt:sha256:d8a54f19b2e84c7185038c1a6b0c36b85e94b2164e2920f2e0325bdfa450e189",
+  "receipt_file": "evidence/receipt.json",
+  "report": "report.md",
+  "artifacts": {
+    "inventory": "inventory.json",
+    "validation": "evidence/validation.json",
+    "build_hashes": "evidence/build-hashes.json",
+    "strict_type_errors": "evidence/upstream-types.txt",
+    "local_route_probe": "evidence/local-route-probe.json",
+    "receipt_verification": "evidence/receipt-verification.json"
+  },
+  "repository": {
+    "url": "https://github.com/sindresorhus/ky",
+    "commit": "3541888878c4d303a8bc2ad61815f4e048f55a5d",
+    "package": "ky",
+    "version": "2.2.0",
+    "license": "MIT",
+    "license_note": "MIT License in root LICENSE and package.json",
+    "recent_package_activity": "3541888878c4d303a8bc2ad61815f4e048f55a5d committed 2026-10-09T06:29:22Z",
+    "tracked_package_source_files": 35
+  },
+  "sourcey": {
+    "version": "3.9.0",
+    "adapter": "markdown",
+    "config": "sourcey.config.ts",
+    "command": "npx sourcey build",
+    "base_url": "/ky-reference",
+    "site_url": "https://docs.agent-runway.dev"
+  },
+  "coverage": {
+    "documented_api_pages": 26,
+    "runtime_methods": 11,
+    "error_classes": 7,
+    "type_guards": 6,
+    "helpers": 2,
+    "pages": [
+      {
+        "name": "ky",
+        "kind": "function",
+        "path": "pages/api/ky.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 42
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 39
+        }
+      },
+      {
+        "name": "ky.get",
+        "kind": "client-method",
+        "path": "pages/api/get.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 56
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 43
+        }
+      },
+      {
+        "name": "ky.post",
+        "kind": "client-method",
+        "path": "pages/api/post.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 64
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 43
+        }
+      },
+      {
+        "name": "ky.put",
+        "kind": "client-method",
+        "path": "pages/api/put.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 72
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 43
+        }
+      },
+      {
+        "name": "ky.patch",
+        "kind": "client-method",
+        "path": "pages/api/patch.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 80
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 43
+        }
+      },
+      {
+        "name": "ky.head",
+        "kind": "client-method",
+        "path": "pages/api/head.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 88
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 43
+        }
+      },
+      {
+        "name": "ky.delete",
+        "kind": "client-method",
+        "path": "pages/api/delete.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 96
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 43
+        }
+      },
+      {
+        "name": "ky.create",
+        "kind": "factory-method",
+        "path": "pages/api/create.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 104
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 46
+        }
+      },
+      {
+        "name": "ky.extend",
+        "kind": "factory-method",
+        "path": "pages/api/extend.html",
+        "declaration": {
+          "path": "source/types/ky.ts",
+          "line": 112
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 47
+        }
+      },
+      {
+        "name": "ky.stop",
+        "kind": "constant",
+        "path": "pages/api/stop.html",
+        "declaration": {
+          "path": "source/core/constants.ts",
+          "line": 18
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 56
+        }
+      },
+      {
+        "name": "ky.retry",
+        "kind": "function",
+        "path": "pages/api/retry.html",
+        "declaration": {
+          "path": "source/core/constants.ts",
+          "line": 26
+        },
+        "implementation": {
+          "path": "source/index.ts",
+          "line": 57
+        }
+      },
+      {
+        "name": "ResponsePromise",
+        "kind": "class",
+        "path": "pages/api/response-promise.html",
+        "declaration": {
+          "path": "source/types/ResponsePromise.ts",
+          "line": 14
+        },
+        "implementation": {
+          "path": "source/core/Ky.ts",
+          "line": 310
+        }
+      },
+      {
+        "name": "KyError",
+        "kind": "class",
+        "path": "pages/api/ky-error.html",
+        "declaration": {
+          "path": "source/errors/KyError.ts",
+          "line": 12
+        },
+        "implementation": {
+          "path": "source/errors/KyError.ts",
+          "line": 12
+        }
+      },
+      {
+        "name": "HTTPError",
+        "kind": "class",
+        "path": "pages/api/http-error.html",
+        "declaration": {
+          "path": "source/errors/HTTPError.ts",
+          "line": 20
+        },
+        "implementation": {
+          "path": "source/errors/HTTPError.ts",
+          "line": 20
+        }
+      },
+      {
+        "name": "NetworkError",
+        "kind": "class",
+        "path": "pages/api/network-error.html",
+        "declaration": {
+          "path": "source/errors/NetworkError.ts",
+          "line": 10
+        },
+        "implementation": {
+          "path": "source/errors/NetworkError.ts",
+          "line": 10
+        }
+      },
+      {
+        "name": "TimeoutError",
+        "kind": "class",
+        "path": "pages/api/timeout-error.html",
+        "declaration": {
+          "path": "source/errors/TimeoutError.ts",
+          "line": 12
+        },
+        "implementation": {
+          "path": "source/errors/TimeoutError.ts",
+          "line": 12
+        }
+      },
+      {
+        "name": "ResponseSizeError",
+        "kind": "class",
+        "path": "pages/api/response-size-error.html",
+        "declaration": {
+          "path": "source/errors/ResponseSizeError.ts",
+          "line": 10
+        },
+        "implementation": {
+          "path": "source/errors/ResponseSizeError.ts",
+          "line": 10
+        }
+      },
+      {
+        "name": "ForceRetryError",
+        "kind": "class",
+        "path": "pages/api/force-retry-error.html",
+        "declaration": {
+          "path": "source/errors/ForceRetryError.ts",
+          "line": 8
+        },
+        "implementation": {
+          "path": "source/errors/ForceRetryError.ts",
+          "line": 8
+        }
+      },
+      {
+        "name": "SchemaValidationError",
+        "kind": "class",
+        "path": "pages/api/schema-validation-error.html",
+        "declaration": {
+          "path": "source/errors/SchemaValidationError.ts",
+          "line": 11
+        },
+        "implementation": {
+          "path": "source/errors/SchemaValidationError.ts",
+          "line": 11
+        }
+      },
+      {
+        "name": "isKyError",
+        "kind": "type-guard",
+        "path": "pages/api/is-ky-error.html",
+        "declaration": {
+          "path": "source/utils/type-guards.ts",
+          "line": 14
+        },
+        "implementation": {
+          "path": "source/utils/type-guards.ts",
+          "line": 14
+        }
+      },
+      {
+        "name": "isHTTPError",
+        "kind": "type-guard",
+        "path": "pages/api/is-http-error.html",
+        "declaration": {
+          "path": "source/utils/type-guards.ts",
+          "line": 18
+        },
+        "implementation": {
+          "path": "source/utils/type-guards.ts",
+          "line": 18
+        }
+      },
+      {
+        "name": "isNetworkError",
+        "kind": "type-guard",
+        "path": "pages/api/is-network-error.html",
+        "declaration": {
+          "path": "source/utils/type-guards.ts",
+          "line": 22
+        },
+        "implementation": {
+          "path": "source/utils/type-guards.ts",
+          "line": 22
+        }
+      },
+      {
+        "name": "isTimeoutError",
+        "kind": "type-guard",
+        "path": "pages/api/is-timeout-error.html",
+        "declaration": {
+          "path": "source/utils/type-guards.ts",
+          "line": 26
+        },
+        "implementation": {
+          "path": "source/utils/type-guards.ts",
+          "line": 26
+        }
+      },
+      {
+        "name": "isResponseSizeError",
+        "kind": "type-guard",
+        "path": "pages/api/is-response-size-error.html",
+        "declaration": {
+          "path": "source/utils/type-guards.ts",
+          "line": 30
+        },
+        "implementation": {
+          "path": "source/utils/type-guards.ts",
+          "line": 30
+        }
+      },
+      {
+        "name": "isForceRetryError",
+        "kind": "type-guard",
+        "path": "pages/api/is-force-retry-error.html",
+        "declaration": {
+          "path": "source/utils/type-guards.ts",
+          "line": 34
+        },
+        "implementation": {
+          "path": "source/utils/type-guards.ts",
+          "line": 34
+        }
+      },
+      {
+        "name": "replaceOption",
+        "kind": "function",
+        "path": "pages/api/replace-option.html",
+        "declaration": {
+          "path": "source/utils/merge.ts",
+          "line": 182
+        },
+        "implementation": {
+          "path": "source/utils/merge.ts",
+          "line": 182
+        }
+      }
+    ]
+  },
+  "commands": [
+    "node --version",
+    "git checkout 3541888878c4d303a8bc2ad61815f4e048f55a5d",
+    "npm run build",
+    "npx sourcey build --config sourcey.config.ts",
+    "runx skill ./runx-validator --run-id ky-sourcey-35418888-v1 -i commit=3541888878c4d303a8bc2ad61815f4e048f55a5d --json",
+    "runx verify --receipt evidence/receipt.json --json"
+  ],
+  "observations": [
+    "runx --version output: runx-cli 0.10.2",
+    "Node.js output: v22.22.0, satisfying Sourcey README's Node 22.19+ requirement.",
+    "The public source is pinned to commit 3541888878c4d303a8bc2ad61815f4e048f55a5d; verified against official GitHub git tree SHA-256 manifest.",
+    "Sourcey compiled 26 navigable API reference pages covering all 11 client callables, 7 error classes, 6 type guards, replaceOption, and ResponsePromise.",
+    "The generated inventory maps every documented API symbol to an exact declaration line and implementation source across 35 tracked TypeScript files.",
+    "Validation verified 840 local href/src references, signatures, and example code blocks across all 26 generated documentation pages.",
+    "Local route probe returned HTTP 200 for /ky-reference, /ky-reference/api/get.html, and client assets.",
+    "The production deployment on docs.agent-runway.dev serves navigable HTML docs, llms.txt, and client assets with HTTP 200.",
+    "Sealed receipt reference is runx:receipt:sha256:d8a54f19b2e84c7185038c1a6b0c36b85e94b2164e2920f2e0325bdfa450e189 emitted by runx-cli 0.10.2.",
+    "Package metadata in package.json and root LICENSE file confirm permissive MIT license terms for sindresorhus/ky v2.2.0."
+  ]
+}
