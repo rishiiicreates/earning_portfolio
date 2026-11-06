@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap');
+  
+  body {
+    margin: 0;
+    padding: 40px;
+    background: #111;
+    font-family: 'Space Grotesk', -apple-system, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 40px;
+  }
+
+  /* Standard US Business Card 3.5in x 2.0in @ 300dpi = 1050px x 600px */
+  .card {
+    width: 1050px;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  /* FRONT: Deep black, crisp white, engraved border */
+  .front {
+    background: #000;
+    color: #fff;
+    padding: 36px 48px;
+    border: 3px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .front-inner-border {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    border: 1px solid rgba(255,255,255,0.4);
+    pointer-events: none;
+  }
+
+  .front-header {
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 18px;
+  }
+
+  .front-header h1 {
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .front-header p {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 6px 0 0 0;
+    color: #ccc;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 40px;
+    margin-top: 10px;
+  }
+
+  .pillar {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .pillar-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .pillar-desc {
+    font-size: 19px;
+    line-height: 1.35;
+    color: #bbb;
+  }
+
+  .front-footer {
+    border-top: 2px solid #fff;
+    padding-top: 16px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+
+  /* BACK: Pure white, rich black ink */
+  .back {
+    background: #fff;
+    color: #000;
+    padding: 36px 48px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .back-inner-border {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    border: 1px solid rgba(0,0,0,0.3);
+    pointer-events: none;
+  }
+
+  .back-header {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 16px;
+  }
+
+  .back-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .back-header p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 4px 0 0 0;
+    color: #333;
+  }
+
+  .back-body {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #111;
+  }
+
+  .back-cta-box {
+    background: #f0f0f0;
+    border-left: 6px solid #000;
+    padding: 14px 20px;
+    margin-top: 10px;
+  }
+
+  .back-cta-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .back-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .back-checklist li::before {
+    content: "■ ";
+    font-size: 12px;
+    vertical-align: middle;
+  }
+
+  .back-footer {
+    border-top: 2px solid #000;
+    padding-top: 14px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card-container">
+  <!-- FRONT -->
+  <div class="card front">
+    <div class="front-inner-border"></div>
+    <div class="front-header">
+      <h1>I Paid You In Cash</h1>
+      <p>ON PURPOSE. HERE IS WHY IT MATTERS:</p>
+    </div>
+    
+    <div class="grid">
+      <div class="pillar">
+        <div class="pillar-title">1. ZERO INTERCHANGE FEES</div>
+        <div class="pillar-desc">You keep 100% of this sale. No 3% cut to Visa, Mastercard, or merchant card terminals.</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-title">2. ABSOLUTE PRIVACY</div>
+        <div class="pillar-desc">No transaction logs sold to data brokers. No targeted algorithms. No identity surveillance.</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-title">3. GRID INDEPENDENT</div>
+        <div class="pillar-desc">Power outage? Telemetry blackout? Network failure? Physical notes settle instantly everywhere.</div>
+      </div>
+      <div class="pillar">
+        <div class="pillar-title">4. UNFREEZABLE SOVEREIGNTY</div>
+        <div class="pillar-desc">Direct peer-to-peer ownership. Cannot be deplatformed, confiscated, or reversed by bank servers.</div>
+      </div>
+    </div>
+    
+    <div class="front-footer">
+      CASH IS FREEDOM YOU CAN HOLD IN YOUR HAND.
+    </div>
+  </div>
+
+  <!-- BACK -->
+  <div class="card back">
+    <div class="back-inner-border"></div>
+    <div class="back-header">
+      <h2>Use It Or Lose It Forever</h2>
+      <p>When cash disappears, unconditional financial freedom dies with it.</p>
+    </div>
+
+    <div class="back-body">
+      Every digital swipe or phone tap conditions our basic human survival on third-party bank permission. The state and payment monopolies seek to eliminate paper currency to control and tax every movement. We must defend physical cash.
+    </div>
+
+    <div class="back-cta-box">
+      <div class="back-cta-title">Action Plan For Financial Sovereignty:</div>
+      <ul class="back-checklist">
+        <li>Accept paper currency proudly</li>
+        <li>Withdraw weekly cash at local ATMs</li>
+        <li>Tip service workers with banknotes</li>
+        <li>Transact peer-to-peer without permission</li>
+      </ul>
+    </div>
+
+    <div class="back-footer">
+      PASS THIS NOTE FORWARD • DEFEND FINANCIAL PRIVACY
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
